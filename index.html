@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimercado Zantis</title>
+    <style>
+        .carousel-container {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 10px;
+            padding: 20px 0;
+        }
+
+        .carousel-item {
+            flex: none;
+            width: 150px;
+            scroll-snap-align: start;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .carousel-item img {
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Minimercado Zantis</h1>
+    <nav>
+        <a href="FrutaVerduras.html">Frutas e Verduras</a>
+        <a href="AlimentoNPerecivel.html">Alimentos Não Perecíveis</a>
+        <a href="HigieneLimpeza.html">Higiene e Limpeza</a>
+        <a href="Servicos.html">Serviços</a>
+    </nav>
+</header>
+
+<main>
+    <section id="frutas-verduras">
+        <h2>Frutas e Verduras</h2>
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <img src="Imagens/FrutasVerduras/abacate.img.webp" alt="Abacate">
+                <p>Abacate</p>
+                <p>R$ 12,90/kg</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/FrutasVerduras/abacax.img.webp" alt="Abacaxi">
+                <p>Abacaxi</p>
+                <p>R$ 6,50/kg</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/FrutasVerduras/abobrina.img.jpg" alt="Abobrinha">
+                <p>Abobrinha</p>
+                <p>R$ 4,20/kg</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/FrutasVerduras/alface.img.jpg" alt="Alface">
+                <p>Alface</p>
+                <p>R$ 3,00/unidade</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/FrutasVerduras/pera.img.webp" alt="Pera">
+                <p>Pera</p>
+                <p>R$ 8,90/kg</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/FrutasVerduras/tomate.img.jpg" alt="Tomate">
+                <p>Tomate</p>
+                <p>R$ 5,30/kg</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="alimentos-nao-pereciveis">
+        <h2>Produtos Alimentícios Não Perecíveis</h2>
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <img src="Imagens/AlimentosNaoPereciveis/arroz.jpg" alt="Arroz">
+                <p>Arroz Branco</p>
+                <p>R$ 4,50/kg</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/AlimentosNaoPereciveis/feijao.jpg" alt="Feijão">
+                <p>Feijão Preto</p>
+                <p>R$ 6,20/kg</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/AlimentosNaoPereciveis/massa.jpg" alt="Macarrão">
+                <p>Macarrão Espaguete</p>
+                <p>R$ 2,50/500g</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/AlimentosNaoPereciveis/oleosoja.jpg" alt="Óleo">
+                <p>Óleo de Soja</p>
+                <p>R$ 8,90/litro</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/AlimentosNaoPereciveis/acucar.jpg" alt="Açúcar">
+                <p>Açúcar refinado.</p>
+                <p>Preço: R$ 2,90/kg</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/AlimentosNaoPereciveis/cafe.jpg" alt="Café">
+                <p>Café moído tradicional.</p>
+                <p>Preço: R$ 8,90/250g</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="higiene-limpeza">
+        <h2>Produtos de Higiene e Limpeza</h2>
+        <div class="carousel-container">
+            <div class="carousel-item">
+                <img src="Imagens/HigieneLimpeza/sabao.jpeg" alt="Sabão em Barra">
+                <p>Sabão em Barra</p>
+                <p>Preço: R$ 2,50/unidade</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/HigieneLimpeza/detergente.jpeg" alt="Detergente Líquido">
+                <p>Detergente Líquido</p>
+                <p>Preço: R$ 3,00/unidade</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/HigieneLimpeza/desinfetante.jpeg" alt="Desinfetante">
+                <p>Desinfetante</p>
+                <p>Preço: R$ 5,50/unidade</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/HigieneLimpeza/papelhigiênico.jpeg" alt="Papel Higiênico">
+                <p>Papel Higiênico</p>
+                <p>Preço: R$ 10,00/pack</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/HigieneLimpeza/cremedental.jpeg" alt="Creme Dental">
+                <p>Creme Dental</p>
+                <p>Preço: R$ 4,90/unidade</p>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/HigieneLimpeza/alcoolgel.jpeg" alt="Álcool em Gel">
+                <p>Álcool em Gel</p>
+                <p>Preço: R$ 8,00/unidade</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <div>
+            <h3>Retirada no Local</h3>
+            <p>Retire suas compras diretamente em nossa loja.</p>
+            <p>Preço: Grátis</p>
+        </div>
+        <div>
+            <h3>Tele-Entrega</h3>
+            <p>Receba suas compras no conforto da sua casa.</p>
+            <p>Preço: R$ 5,00 por entrega</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Minimercado Zantis. Todos os direitos reservados.</p>
+    <p>Contato: email@minimercadozantizantis.com | Telefone: (XX) XXXX-XXXX</p>
+    <nav>
+        <a href="FrutaVerduras.html">Frutas e Verduras</a> |
+        <a href="AlimentoNPerecivel.html">Alimentos Não Perecíveis</a> |
+        <a href="HigieneLimpeza.html">Higiene e Limpeza</a> |
+        <a href="Servicos.html">Serviços</a>
+    </nav>
+</footer>
+
+</body>
+</html>
